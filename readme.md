@@ -4,9 +4,6 @@ By elkay
 ## Integrating your mod
 The source code within this repository contains a CCA, Buff, Function Library, and Example UI. When migrating into your own mod, make sure to ensure no files are referencing anything not within your mod directory (ie: you don't want the ExampleUI, ensure ExampleBuff isn't referencing it).
 
-**Example UI** - A basic UI designed to showcase the UI-opening feature. It is crucial to remember to notify the Mod Menu UI when your UIs are closed.
-
-
 ## CCA
 The CCA example is where most of the critical logic is performed. it informs the Mod Menu CCA of your settings and UIs. Setting information (everything EXCEPT the player-set value) will be reset to what is contained within your CCA.
 
